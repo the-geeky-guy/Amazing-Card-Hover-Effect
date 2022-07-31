@@ -1,0 +1,40 @@
+body {
+    background:  black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.main {
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    background: linear-gradient(86deg, #ec0a0a, #0936ee);
+    border-radius: 10px;
+    color: #fff;
+    clip-path: circle(23.2% at 100% 0);
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.main h1 {
+    margin: 30px 0;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.main p {
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.main h3 {
+    margin: 20px 0;
+    color: #ccc;
+}
+
+.main:hover {
+    clip-path: circle(141.4% at 100% 0);
+}
